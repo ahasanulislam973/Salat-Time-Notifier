@@ -1,0 +1,23 @@
+{
+    "name": "ahasanulislam/laravel-salat-notifier",
+    "description": "A Laravel package to manage Salat times and send Slack notifications",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LaravelSalatNotifier\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSalatNotifier\\Providers\\SalatNotifierServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
